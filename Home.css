@@ -1,0 +1,50 @@
+html, body, head, figure, div, ul {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+
+ul#flex-container{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+li {
+    flex-grow: 1;
+}
+
+img {
+
+    height: 970px;
+    padding-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    width: 25%;
+
+}
+
+ul li:first-child {
+    background-image: url("Stadion.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ul li:nth-child(2) {
+    background-image: url("Voetbalsupporters.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ul li:nth-child(3) {
+    background-image: url("Opstelling.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 350%;
+}
+ul li:nth-child(4) {
+    background-image: url("Wk beker.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150%;
+}
