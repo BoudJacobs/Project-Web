@@ -48,3 +48,38 @@ ul li:nth-child(4) {
     background-position: center;
     background-size: 150%;
 }
+.clock {
+    font-family: Broadway;
+    color: white;
+    margin-inside: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -15px;
+    font-size: 25px;
+}
+
+.tekstBijClock {
+    font-family: Broadway;
+    color: white;
+    margin-inside: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+.divClock {
+    font-family: Broadway;
+    color: white;
+    background-color: black;
+    margin-inside: 50px;
+    border: white;
+    border: solid;
+    border-width: 1px;
+    width: 30%;
+    height: 70px;
+    text-align: center;
+    /*margin-left: auto;/*
+    /*margin-right: auto;/*
+    /*margin-top: 560px;*/
+    position: absolute;
+    bottom: 5px;
+    left: 35%;
+}
